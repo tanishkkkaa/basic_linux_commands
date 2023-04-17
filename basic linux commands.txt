@@ -1,0 +1,21 @@
+ ls- list all the things
+ mkdir name #to make directory
+ cd name #to make changes in previously made directory
+ git init #open folder where all the history is saved
+ ls -a #to see hidden files (starts with dot files are hidden)
+ ls .git #whats inside .git folder
+ touch names.txt #to create  #whose photos has not been clicked #files having no history
+ git status #to see all the changes done in the directory
+ git add . or git add filename.txt #adds a change in the working directory to the staging area #they are on stage to get the photo clicked #to create history
+ git commit -m "file.txt file added" #The git commit command requires a commit message that describes the snapshot / changes that you made in that commit
+ vi name.txt #to add something in file
+ cat name.txt #to see all the changes
+ git restore --staged name.txt #The "restore" command helps to unstage or even discard uncommitted local changes 
+ git log #to see history of changes done in project
+ rm -rf name.txt #to delete the file
+ git reset hash id #to delete a comment from history of git log or to make a project like it was previously #all the comment above this id will be deleted #all the removed files will be on unstaged area
+ mv oldfile newfile #to rename a file
+ git stash #you neither want to commit these changes nor want to loose these changes basically you want them to go backstage and whenever you want them you will get them back 
+ git stash pop #to call all the people at back state to the unstaging area
+ git stash clear #to delete the backstage item permanently
+ 
